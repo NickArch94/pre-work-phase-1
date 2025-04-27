@@ -8,8 +8,21 @@
     <style>
         h1 {
             text-align: center;
-            font-size: 32px;
-            color: #00dfe6;
+            font-size: 85px;
+            margin-top: 300px;
+            -webkit-text-stroke: 1px black;
+            animation-name: test;
+            animation-duration: 05s;
+            animation-fill-mode: forwards;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes test {
+            0% {color: #00dfe6;}
+            45% {color: #1bef6d;}
+            55% {color: #1d94f8;}
+            100% {color:#00dfe6;}
         }
     </style>
 </head>
